@@ -2,13 +2,13 @@
 #Polovkov Dmitry 
 
 ##Contact Info:
-* Skype: sonics_ml
-* Phone: +375 (29) 365-65-21
-* Telegram: https://t.me/sonicsscs
-* Vk: https://vk.com/id5880221
-* LinkedIn: https://www.linkedin.com/in/dmitry-polovkov/
-* Email: sonics1989@mail.ru
-* Github: https://github.com/sonicsml/
+* **Skype:** sonics_ml
+* **Phone:** +375 (29) 365-65-21
+* **Telegram:** https://t.me/sonicsscs
+* **Vk:** https://vk.com/id5880221
+* **LinkedIn:** https://www.linkedin.com/in/dmitry-polovkov/
+* **Email:** sonics1989@mail.ru
+* **Github:** https://github.com/sonicsml/
 
 ##Skills:
 * HTML5, CSS3 (Bootstrap, SASS/SCSS, BEM)
@@ -39,6 +39,8 @@ const AllCards = (props) => {
   }
 ```
 ##Education:
+Francisk Skorina Gomel State University
+(Physics faculty)
 
 ##Languages:
 * Russian - native speaker.
