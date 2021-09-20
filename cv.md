@@ -1,7 +1,7 @@
 
-#Polovkov Dmitry 
+# Polovkov Dmitry 
 
-##Contact Info:
+##C ontact Info:
 * **Skype:** sonics_ml
 * **Phone:** +375 (29) 365-65-21
 * **Telegram:** https://t.me/sonicsscs
@@ -10,7 +10,7 @@
 * **Email:** sonics1989@mail.ru
 * **Github:** https://github.com/sonicsml/
 
-##Skills:
+## Skills:
 * HTML5, CSS3 (Bootstrap, SASS/SCSS, BEM)
 * JS, React, Node.js
 * Github
@@ -18,7 +18,7 @@
 * VSCode
 * CMS: Wordpress, Joomla, Opencart
 
-##Code Examples:
+## Code Examples:
 ```js
 const AllCards = (props) => {
     return (
@@ -38,10 +38,10 @@ const AllCards = (props) => {
     );
   }
 ```
-##Education:
+## Education:
 Francisk Skorina Gomel State University
 (Physics faculty)
 
-##Languages:
+## Languages:
 * Russian - native speaker.
 * English - A2 (B1 in process…)
