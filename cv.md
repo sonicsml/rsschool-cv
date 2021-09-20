@@ -1,7 +1,7 @@
 
 # Polovkov Dmitry 
 
-##C ontact Info:
+## Contact Info:
 * **Skype:** sonics_ml
 * **Phone:** +375 (29) 365-65-21
 * **Telegram:** https://t.me/sonicsscs
