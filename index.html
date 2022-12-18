@@ -4,9 +4,69 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
 <title>Document</title>
 </head>
 <body>
-<p>Hello world!</p>
+  <header class="header">
+    <div class="container">
+      <nav class="navigation block">
+        <ul class="nav">
+          <li class="nav__li"><a class="nav__link" href="#about">About me</a></li>
+          <li class="nav__li"><a class="nav__link" href="#education">Education</a></li>
+          <li class="nav__li"><a class="nav__link" href="#skills">Skills</a></li>
+          <li class="nav__li"><a class="nav__link" href="#courses">Courses</a></li>
+          <li class="nav__li"><a class="nav__link" href="#links">Links</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container flex">
+      <aside class="col-container block skills-block" id="skills">
+        <h2 class="h2 title-name">SKILLS</h2>
+        <ul class="skills flex">
+          <il class="skills__item">HTML+CSS, SASS, БЭМ</il>
+          <il class="skills__item">JS, React</il>
+          <il class="skills__item">Bootstrap 3, 4, 5</il>
+          <il class="skills__item">node, Gulp, Bower, Webpack</il>
+          <il class="skills__item">Git, Jira, Jenkins</il>
+          <il class="skills__item">MySQL, SQL</il>
+          <il class="skills__item">CMS: Joomla, Wordpress, OpenCart.</il>
+        </ul>
+      </aside>
+      <section class="col-container block about-block" id="about">
+        <div class="profile-picture">
+          <img width="150px" alt="Dzmitry Palaukou" src="images/ava.jpg">
+      </div>
+        <h1 class="h1 title-name">Palaukou Dzmitry</h1>
+        <div class="profile-description">
+          <p class="text-center">Front-end Developer</p>
+          <p class="text-center font-color-gr">I love coffee, play and develop</p>
+          <p class="font-color-gr">Russian - native speaker.<br>
+            English - A2 (B1 in process…)</p>
+          </div>
+      </section>
+      <section class="col-container block">
+        <h2 class="h2 title-name" id="education">Education</h2>
+        <p class="text-center">Francisk Skorina Gomel State University (Physics faculty)</p>
+        <h2 class="h2 title-name courses" id="courses">Courses</h2>
+        <ul class="skills flex">
+          <il class="skills__item">2022 - Unity Developer</il>
+          <il class="skills__item">2016 - QA</il>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container block">
+      <div class="links flex links-block" id="links">
+        <a href="https://rs.school/"><img class="logo" width="150" src="https://rs.school/images/rs_school_js.svg" alt=""></a>
+        <a href="https://t.me/sonicsscs"><img width="45" src="images/telegram.svg" alt=""></a>
+        <a href="https://www.linkedin.com/in/dmitry-polovkov/"><img width="45" src="images/linkedin.svg" alt=""></a>
+        <a href="https://github.com/sonicsml"><img width="55" src="images/git.svg" alt=""></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
