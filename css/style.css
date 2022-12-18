@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin: 0;
+    background: #1f253d;
+    color:#fff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.flex {
+    display: flex;
+}
+.avatar img {
+    max-width: 150px;
+    border-radius: 100%;
+}
+.container {
+    width: 1020px;
+    margin: auto;
+}
+.header,
+.main,
+.footer {
+
+}
+.header,
+.footer {
+    justify-content: space-around;
+}
+.header ul li,
+.footer ul li {
+    list-style-type: none;
+}
+.header .nav {
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header .nav .nav__link {
+    padding: 0 25px;
+    display: block;
+    line-height: 55px;
+    font-size: 16px;
+    -webkit-transition: background .3s;
+    transition: background .3s;
+    border-bottom: 4px solid #394264; 
+}
+.header .nav .nav__link:hover {
+    background: #50597b;
+    border-bottom: 4px solid #11a8ab;
+}
+.block {
+    margin-bottom: 25px;
+    background: #394264;
+    border-radius: 5px;
+}
+.col-container {
+    width: 320px;
+}
+.title-name {
+    background: #11a8ab;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+}
+.title-name.h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+.skills {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+}
+.skills .skills__item {
+    line-height: 60px;
+    padding-left: 20px;
+    display: block;
+    border-bottom: 1px solid #1f253d;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+}
+.profile-picture {
+    margin: 30px auto;
+    border: 5px solid #50597b;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.profile-picture img {
+    border-radius: 100%;
+}
+.main>.container.flex {
+    justify-content: space-between;
+}
+h1.title-name {
+    border-radius: 0;
+    padding: 20px 0;
+}
+.text-center {
+    text-align: center;
+}
+.font-color-gr {
+    color: #9099b7;
+}
+.about-block {
+    height: 400px;
+}
+p {
+    margin: 5px 0
+}
+h2.title-name.courses {
+    border-radius: 0;
+    margin-top: 30px;
+}
+.profile-description {
+    padding: 0 30px
+}
+.footer > .block {
+    padding: 10px 0px;
+}
+.links {
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+}
+.links-block a {
+    margin: 10px;
+}
